@@ -5,3 +5,4 @@ replay.txt
 test.txt
 lambda/test/testflow_credentials.json
 lambda/shared/credentials.json
+.vscode
