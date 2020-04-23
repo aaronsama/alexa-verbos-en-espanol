@@ -14,9 +14,10 @@ You need to create a `credentials.json` file in `lambda/shared` with a single en
 
 ```json
 {
-  "roleArn": "arn:aws:iam::XXXXXXXXX:role/Alexa" /* get the actual value for your skill */
+  "roleArn": "arn:aws:iam::XXXXXXXXX:role/Alexa"
 }
 ```
+(get the actual value for your skill)
 
 If you want to use Testflow, you need to create another credential file with IAM in `lambda/test/testflow_credentials.json`.
 
