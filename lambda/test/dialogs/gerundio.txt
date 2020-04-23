@@ -1,0 +1,6 @@
+LaunchRequest
+StartIntent mood=gerund
+AMAZON.HelpIntent
+? GerundResponseIntent gerundResponse=comiendo
+AMAZON.YesIntent
+AMAZON.StopIntent

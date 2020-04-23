@@ -1,0 +1,2098 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "teach me spanish",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "StartIntent",
+          "slots": [],
+          "samples": [
+            "start",
+            "empezamos",
+            "empieza",
+            "vamos",
+            "venga",
+            "adelante"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "GerundResponseIntent",
+          "slots": [
+            {
+              "name": "response",
+              "type": "GerundResponse"
+            }
+          ],
+          "samples": [
+            "la respuesta es {response}",
+            "{response}",
+            "el gerundio es {response}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "bautizando"
+              }
+            },
+            {
+              "name": {
+                "value": "bañándose"
+              }
+            },
+            {
+              "name": {
+                "value": "padeciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "explotando"
+              }
+            },
+            {
+              "name": {
+                "value": "batiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "leyendo"
+              }
+            },
+            {
+              "name": {
+                "value": "significando"
+              }
+            },
+            {
+              "name": {
+                "value": "mudándose"
+              }
+            },
+            {
+              "name": {
+                "value": "naciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "reconociendo"
+              }
+            },
+            {
+              "name": {
+                "value": "helando"
+              }
+            },
+            {
+              "name": {
+                "value": "acostándose"
+              }
+            },
+            {
+              "name": {
+                "value": "asustando"
+              }
+            },
+            {
+              "name": {
+                "value": "aburriendo"
+              }
+            },
+            {
+              "name": {
+                "value": "doblando"
+              }
+            },
+            {
+              "name": {
+                "value": "desagradando"
+              }
+            },
+            {
+              "name": {
+                "value": "costando"
+              }
+            },
+            {
+              "name": {
+                "value": "jactándose"
+              }
+            },
+            {
+              "name": {
+                "value": "tocando"
+              }
+            },
+            {
+              "name": {
+                "value": "tapando"
+              }
+            },
+            {
+              "name": {
+                "value": "felicitando"
+              }
+            },
+            {
+              "name": {
+                "value": "jugando"
+              }
+            },
+            {
+              "name": {
+                "value": "censurando"
+              }
+            },
+            {
+              "name": {
+                "value": "aumentando"
+              }
+            },
+            {
+              "name": {
+                "value": "convirtiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "enfadándose"
+              }
+            },
+            {
+              "name": {
+                "value": "acordándose"
+              }
+            },
+            {
+              "name": {
+                "value": "abandonando"
+              }
+            },
+            {
+              "name": {
+                "value": "alegrándose"
+              }
+            },
+            {
+              "name": {
+                "value": "callando"
+              }
+            },
+            {
+              "name": {
+                "value": "patinando"
+              }
+            },
+            {
+              "name": {
+                "value": "graduando"
+              }
+            },
+            {
+              "name": {
+                "value": "influyendo"
+              }
+            },
+            {
+              "name": {
+                "value": "secando"
+              }
+            },
+            {
+              "name": {
+                "value": "constituyendo"
+              }
+            },
+            {
+              "name": {
+                "value": "parando"
+              }
+            },
+            {
+              "name": {
+                "value": "copiando"
+              }
+            },
+            {
+              "name": {
+                "value": "besando"
+              }
+            },
+            {
+              "name": {
+                "value": "persiguiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "acampando"
+              }
+            },
+            {
+              "name": {
+                "value": "depositando"
+              }
+            },
+            {
+              "name": {
+                "value": "hallándose"
+              }
+            },
+            {
+              "name": {
+                "value": "presintiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "echando"
+              }
+            },
+            {
+              "name": {
+                "value": "bebiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "continuando"
+              }
+            },
+            {
+              "name": {
+                "value": "quebrándose"
+              }
+            },
+            {
+              "name": {
+                "value": "atreviéndose"
+              }
+            },
+            {
+              "name": {
+                "value": "perdonando"
+              }
+            },
+            {
+              "name": {
+                "value": "preparando"
+              }
+            },
+            {
+              "name": {
+                "value": "yaciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "repitiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "zambulléndose"
+              }
+            },
+            {
+              "name": {
+                "value": "reservando"
+              }
+            },
+            {
+              "name": {
+                "value": "cargando"
+              }
+            },
+            {
+              "name": {
+                "value": "vendiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "casándose"
+              }
+            },
+            {
+              "name": {
+                "value": "comunicándose"
+              }
+            },
+            {
+              "name": {
+                "value": "gritando"
+              }
+            },
+            {
+              "name": {
+                "value": "introduciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "cumpliendo"
+              }
+            },
+            {
+              "name": {
+                "value": "funcionando"
+              }
+            },
+            {
+              "name": {
+                "value": "colocando"
+              }
+            },
+            {
+              "name": {
+                "value": "sonriendo"
+              }
+            },
+            {
+              "name": {
+                "value": "bañando"
+              }
+            },
+            {
+              "name": {
+                "value": "asociando"
+              }
+            },
+            {
+              "name": {
+                "value": "interpretando"
+              }
+            },
+            {
+              "name": {
+                "value": "modificando"
+              }
+            },
+            {
+              "name": {
+                "value": "generalizando"
+              }
+            },
+            {
+              "name": {
+                "value": "tardando"
+              }
+            },
+            {
+              "name": {
+                "value": "clarificando"
+              }
+            },
+            {
+              "name": {
+                "value": "nevando"
+              }
+            },
+            {
+              "name": {
+                "value": "calmándose"
+              }
+            },
+            {
+              "name": {
+                "value": "fingiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "divorciando"
+              }
+            },
+            {
+              "name": {
+                "value": "sorprendiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "poniéndose"
+              }
+            },
+            {
+              "name": {
+                "value": "indicando"
+              }
+            },
+            {
+              "name": {
+                "value": "chismeando"
+              }
+            },
+            {
+              "name": {
+                "value": "conquistando"
+              }
+            },
+            {
+              "name": {
+                "value": "cuidando"
+              }
+            },
+            {
+              "name": {
+                "value": "perteneciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "enriqueciéndose"
+              }
+            },
+            {
+              "name": {
+                "value": "rompiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "deshaciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "contando"
+              }
+            },
+            {
+              "name": {
+                "value": "sufriendo"
+              }
+            },
+            {
+              "name": {
+                "value": "provocando"
+              }
+            },
+            {
+              "name": {
+                "value": "desapareciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "manteniendo"
+              }
+            },
+            {
+              "name": {
+                "value": "dejando"
+              }
+            },
+            {
+              "name": {
+                "value": "enflaqueciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "robando"
+              }
+            },
+            {
+              "name": {
+                "value": "sacando"
+              }
+            },
+            {
+              "name": {
+                "value": "temiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "atendiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "escondiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "culpando"
+              }
+            },
+            {
+              "name": {
+                "value": "renovando"
+              }
+            },
+            {
+              "name": {
+                "value": "tratando"
+              }
+            },
+            {
+              "name": {
+                "value": "ubicando"
+              }
+            },
+            {
+              "name": {
+                "value": "haciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "amando"
+              }
+            },
+            {
+              "name": {
+                "value": "diseñando"
+              }
+            },
+            {
+              "name": {
+                "value": "confiando"
+              }
+            },
+            {
+              "name": {
+                "value": "olvidando"
+              }
+            },
+            {
+              "name": {
+                "value": "durando"
+              }
+            },
+            {
+              "name": {
+                "value": "vistiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "bajando"
+              }
+            },
+            {
+              "name": {
+                "value": "publicando"
+              }
+            },
+            {
+              "name": {
+                "value": "expresando"
+              }
+            },
+            {
+              "name": {
+                "value": "amenazando"
+              }
+            },
+            {
+              "name": {
+                "value": "yendo"
+              }
+            },
+            {
+              "name": {
+                "value": "madurando"
+              }
+            },
+            {
+              "name": {
+                "value": "brillando"
+              }
+            },
+            {
+              "name": {
+                "value": "conduciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "debiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "calmando"
+              }
+            },
+            {
+              "name": {
+                "value": "aconteciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "regalando"
+              }
+            },
+            {
+              "name": {
+                "value": "echándose"
+              }
+            },
+            {
+              "name": {
+                "value": "colgando"
+              }
+            },
+            {
+              "name": {
+                "value": "efectuando"
+              }
+            },
+            {
+              "name": {
+                "value": "agradando"
+              }
+            },
+            {
+              "name": {
+                "value": "vistiéndose"
+              }
+            },
+            {
+              "name": {
+                "value": "preparándose"
+              }
+            },
+            {
+              "name": {
+                "value": "amaneciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "alcanzando"
+              }
+            },
+            {
+              "name": {
+                "value": "alquilando"
+              }
+            },
+            {
+              "name": {
+                "value": "añadiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "permitiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "cepillando"
+              }
+            },
+            {
+              "name": {
+                "value": "enviando"
+              }
+            },
+            {
+              "name": {
+                "value": "lanzando"
+              }
+            },
+            {
+              "name": {
+                "value": "conteniendo"
+              }
+            },
+            {
+              "name": {
+                "value": "desagradeciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "ilustrando"
+              }
+            },
+            {
+              "name": {
+                "value": "juntando"
+              }
+            },
+            {
+              "name": {
+                "value": "gustando"
+              }
+            },
+            {
+              "name": {
+                "value": "cesando"
+              }
+            },
+            {
+              "name": {
+                "value": "aprobando"
+              }
+            },
+            {
+              "name": {
+                "value": "abriendo"
+              }
+            },
+            {
+              "name": {
+                "value": "afligiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "iniciando"
+              }
+            },
+            {
+              "name": {
+                "value": "respirando"
+              }
+            },
+            {
+              "name": {
+                "value": "satirizando"
+              }
+            },
+            {
+              "name": {
+                "value": "anunciando"
+              }
+            },
+            {
+              "name": {
+                "value": "equivocándose"
+              }
+            },
+            {
+              "name": {
+                "value": "criticando"
+              }
+            },
+            {
+              "name": {
+                "value": "extendiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "practicando"
+              }
+            },
+            {
+              "name": {
+                "value": "organizando"
+              }
+            },
+            {
+              "name": {
+                "value": "atacando"
+              }
+            },
+            {
+              "name": {
+                "value": "incluyendo"
+              }
+            },
+            {
+              "name": {
+                "value": "investigando"
+              }
+            },
+            {
+              "name": {
+                "value": "acercando"
+              }
+            },
+            {
+              "name": {
+                "value": "gastando"
+              }
+            },
+            {
+              "name": {
+                "value": "burlando"
+              }
+            },
+            {
+              "name": {
+                "value": "asustándose"
+              }
+            },
+            {
+              "name": {
+                "value": "poniendo"
+              }
+            },
+            {
+              "name": {
+                "value": "aceptando"
+              }
+            },
+            {
+              "name": {
+                "value": "perdiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "distinguiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "valiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "decidiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "dedicando"
+              }
+            },
+            {
+              "name": {
+                "value": "agorando"
+              }
+            },
+            {
+              "name": {
+                "value": "interesando"
+              }
+            },
+            {
+              "name": {
+                "value": "arreglando"
+              }
+            },
+            {
+              "name": {
+                "value": "regresando"
+              }
+            },
+            {
+              "name": {
+                "value": "negociando"
+              }
+            },
+            {
+              "name": {
+                "value": "ganando"
+              }
+            },
+            {
+              "name": {
+                "value": "extinguiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "enojando"
+              }
+            },
+            {
+              "name": {
+                "value": "abordando"
+              }
+            },
+            {
+              "name": {
+                "value": "navegando"
+              }
+            },
+            {
+              "name": {
+                "value": "demostrando"
+              }
+            },
+            {
+              "name": {
+                "value": "eligiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "rogando"
+              }
+            },
+            {
+              "name": {
+                "value": "avisando"
+              }
+            },
+            {
+              "name": {
+                "value": "hablando"
+              }
+            },
+            {
+              "name": {
+                "value": "envejeciéndose"
+              }
+            },
+            {
+              "name": {
+                "value": "dibujando"
+              }
+            },
+            {
+              "name": {
+                "value": "terminando"
+              }
+            },
+            {
+              "name": {
+                "value": "entusiasmando"
+              }
+            },
+            {
+              "name": {
+                "value": "estando"
+              }
+            },
+            {
+              "name": {
+                "value": "guardando"
+              }
+            },
+            {
+              "name": {
+                "value": "averiguando"
+              }
+            },
+            {
+              "name": {
+                "value": "tropezando"
+              }
+            },
+            {
+              "name": {
+                "value": "nadando"
+              }
+            },
+            {
+              "name": {
+                "value": "logrando"
+              }
+            },
+            {
+              "name": {
+                "value": "enflaqueciéndose"
+              }
+            },
+            {
+              "name": {
+                "value": "devolviendo"
+              }
+            },
+            {
+              "name": {
+                "value": "cenando"
+              }
+            },
+            {
+              "name": {
+                "value": "atrayendo"
+              }
+            },
+            {
+              "name": {
+                "value": "consumiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "guiando"
+              }
+            },
+            {
+              "name": {
+                "value": "arrojando"
+              }
+            },
+            {
+              "name": {
+                "value": "enriqueciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "acompañando"
+              }
+            },
+            {
+              "name": {
+                "value": "soliendo"
+              }
+            },
+            {
+              "name": {
+                "value": "sucediendo"
+              }
+            },
+            {
+              "name": {
+                "value": "situando"
+              }
+            },
+            {
+              "name": {
+                "value": "dependiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "simbolizando"
+              }
+            },
+            {
+              "name": {
+                "value": "produciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "castigando"
+              }
+            },
+            {
+              "name": {
+                "value": "masticando"
+              }
+            },
+            {
+              "name": {
+                "value": "matando"
+              }
+            },
+            {
+              "name": {
+                "value": "durmiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "untando"
+              }
+            },
+            {
+              "name": {
+                "value": "intentando"
+              }
+            },
+            {
+              "name": {
+                "value": "charlando"
+              }
+            },
+            {
+              "name": {
+                "value": "jurando"
+              }
+            },
+            {
+              "name": {
+                "value": "durmiéndose"
+              }
+            },
+            {
+              "name": {
+                "value": "muriendo"
+              }
+            },
+            {
+              "name": {
+                "value": "rigiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "divirtiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "curando"
+              }
+            },
+            {
+              "name": {
+                "value": "olvidándose"
+              }
+            },
+            {
+              "name": {
+                "value": "formando"
+              }
+            },
+            {
+              "name": {
+                "value": "contribuyendo"
+              }
+            },
+            {
+              "name": {
+                "value": "apostando"
+              }
+            },
+            {
+              "name": {
+                "value": "disminuyendo"
+              }
+            },
+            {
+              "name": {
+                "value": "acortando"
+              }
+            },
+            {
+              "name": {
+                "value": "disgustando"
+              }
+            },
+            {
+              "name": {
+                "value": "escuchando"
+              }
+            },
+            {
+              "name": {
+                "value": "venciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "fabricando"
+              }
+            },
+            {
+              "name": {
+                "value": "respondiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "detestando"
+              }
+            },
+            {
+              "name": {
+                "value": "advirtiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "midiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "tiñendo"
+              }
+            },
+            {
+              "name": {
+                "value": "convidando"
+              }
+            },
+            {
+              "name": {
+                "value": "tirando"
+              }
+            },
+            {
+              "name": {
+                "value": "suspirando"
+              }
+            },
+            {
+              "name": {
+                "value": "tomando"
+              }
+            },
+            {
+              "name": {
+                "value": "dedicándose"
+              }
+            },
+            {
+              "name": {
+                "value": "exhibiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "avanzando"
+              }
+            },
+            {
+              "name": {
+                "value": "maquillando"
+              }
+            },
+            {
+              "name": {
+                "value": "regando"
+              }
+            },
+            {
+              "name": {
+                "value": "emborrachándose"
+              }
+            },
+            {
+              "name": {
+                "value": "combatiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "prefiriendo"
+              }
+            },
+            {
+              "name": {
+                "value": "usando"
+              }
+            },
+            {
+              "name": {
+                "value": "calentando"
+              }
+            },
+            {
+              "name": {
+                "value": "confesando"
+              }
+            },
+            {
+              "name": {
+                "value": "duchando"
+              }
+            },
+            {
+              "name": {
+                "value": "ensuciando"
+              }
+            },
+            {
+              "name": {
+                "value": "cancelando"
+              }
+            },
+            {
+              "name": {
+                "value": "chocando"
+              }
+            },
+            {
+              "name": {
+                "value": "corriendo"
+              }
+            },
+            {
+              "name": {
+                "value": "suponiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "afeitando"
+              }
+            },
+            {
+              "name": {
+                "value": "cruzando"
+              }
+            },
+            {
+              "name": {
+                "value": "estimando"
+              }
+            },
+            {
+              "name": {
+                "value": "reportando"
+              }
+            },
+            {
+              "name": {
+                "value": "evitando"
+              }
+            },
+            {
+              "name": {
+                "value": "buceando"
+              }
+            },
+            {
+              "name": {
+                "value": "reciclando"
+              }
+            },
+            {
+              "name": {
+                "value": "lloviendo"
+              }
+            },
+            {
+              "name": {
+                "value": "obligando"
+              }
+            },
+            {
+              "name": {
+                "value": "sintiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "permaneciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "tragando"
+              }
+            },
+            {
+              "name": {
+                "value": "comprando"
+              }
+            },
+            {
+              "name": {
+                "value": "negándose"
+              }
+            },
+            {
+              "name": {
+                "value": "bronceándose"
+              }
+            },
+            {
+              "name": {
+                "value": "peinándose"
+              }
+            },
+            {
+              "name": {
+                "value": "educando"
+              }
+            },
+            {
+              "name": {
+                "value": "abrazando"
+              }
+            },
+            {
+              "name": {
+                "value": "picando"
+              }
+            },
+            {
+              "name": {
+                "value": "deseando"
+              }
+            },
+            {
+              "name": {
+                "value": "entusiasmándose"
+              }
+            },
+            {
+              "name": {
+                "value": "escogiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "gruñendo"
+              }
+            },
+            {
+              "name": {
+                "value": "aguantando"
+              }
+            },
+            {
+              "name": {
+                "value": "recordando"
+              }
+            },
+            {
+              "name": {
+                "value": "cabiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "viendo"
+              }
+            },
+            {
+              "name": {
+                "value": "glorificando"
+              }
+            },
+            {
+              "name": {
+                "value": "huyendo"
+              }
+            },
+            {
+              "name": {
+                "value": "aprendiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "metiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "enterándose"
+              }
+            },
+            {
+              "name": {
+                "value": "desarrollándose"
+              }
+            },
+            {
+              "name": {
+                "value": "calentándose"
+              }
+            },
+            {
+              "name": {
+                "value": "sonando"
+              }
+            },
+            {
+              "name": {
+                "value": "registrando"
+              }
+            },
+            {
+              "name": {
+                "value": "comunicando"
+              }
+            },
+            {
+              "name": {
+                "value": "encantando"
+              }
+            },
+            {
+              "name": {
+                "value": "compitiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "entrevistando"
+              }
+            },
+            {
+              "name": {
+                "value": "torciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "realizando"
+              }
+            },
+            {
+              "name": {
+                "value": "deteniéndose"
+              }
+            },
+            {
+              "name": {
+                "value": "creyendo"
+              }
+            },
+            {
+              "name": {
+                "value": "fortaleciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "entregando"
+              }
+            },
+            {
+              "name": {
+                "value": "informando"
+              }
+            },
+            {
+              "name": {
+                "value": "peinando"
+              }
+            },
+            {
+              "name": {
+                "value": "moviéndose"
+              }
+            },
+            {
+              "name": {
+                "value": "pescando"
+              }
+            },
+            {
+              "name": {
+                "value": "doliendo"
+              }
+            },
+            {
+              "name": {
+                "value": "estudiando"
+              }
+            },
+            {
+              "name": {
+                "value": "actuando"
+              }
+            },
+            {
+              "name": {
+                "value": "apareciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "peleando"
+              }
+            },
+            {
+              "name": {
+                "value": "causando"
+              }
+            },
+            {
+              "name": {
+                "value": "explicando"
+              }
+            },
+            {
+              "name": {
+                "value": "esperando"
+              }
+            },
+            {
+              "name": {
+                "value": "aplicando"
+              }
+            },
+            {
+              "name": {
+                "value": "fumando"
+              }
+            },
+            {
+              "name": {
+                "value": "invirtiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "viviendo"
+              }
+            },
+            {
+              "name": {
+                "value": "burlándose"
+              }
+            },
+            {
+              "name": {
+                "value": "recibiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "ayudando"
+              }
+            },
+            {
+              "name": {
+                "value": "acordando"
+              }
+            },
+            {
+              "name": {
+                "value": "pudiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "acostumbrando"
+              }
+            },
+            {
+              "name": {
+                "value": "aliviando"
+              }
+            },
+            {
+              "name": {
+                "value": "previendo"
+              }
+            },
+            {
+              "name": {
+                "value": "triunfando"
+              }
+            },
+            {
+              "name": {
+                "value": "comprendiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "notando"
+              }
+            },
+            {
+              "name": {
+                "value": "hiriendo"
+              }
+            },
+            {
+              "name": {
+                "value": "envejeciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "despidiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "disfrutando"
+              }
+            },
+            {
+              "name": {
+                "value": "prometiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "contaminando"
+              }
+            },
+            {
+              "name": {
+                "value": "inventando"
+              }
+            },
+            {
+              "name": {
+                "value": "componiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "llevando"
+              }
+            },
+            {
+              "name": {
+                "value": "compartiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "consiguiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "deteniendo"
+              }
+            },
+            {
+              "name": {
+                "value": "pareciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "conversando"
+              }
+            },
+            {
+              "name": {
+                "value": "queriendo"
+              }
+            },
+            {
+              "name": {
+                "value": "insultando"
+              }
+            },
+            {
+              "name": {
+                "value": "confirmando"
+              }
+            },
+            {
+              "name": {
+                "value": "creando"
+              }
+            },
+            {
+              "name": {
+                "value": "pegando"
+              }
+            },
+            {
+              "name": {
+                "value": "convenciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "luchando"
+              }
+            },
+            {
+              "name": {
+                "value": "acostumbrándose"
+              }
+            },
+            {
+              "name": {
+                "value": "exportando"
+              }
+            },
+            {
+              "name": {
+                "value": "levantándose"
+              }
+            },
+            {
+              "name": {
+                "value": "escribiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "cocinando"
+              }
+            },
+            {
+              "name": {
+                "value": "enfermando"
+              }
+            },
+            {
+              "name": {
+                "value": "revelando"
+              }
+            },
+            {
+              "name": {
+                "value": "oliendo"
+              }
+            },
+            {
+              "name": {
+                "value": "importando"
+              }
+            },
+            {
+              "name": {
+                "value": "ofreciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "preguntando"
+              }
+            },
+            {
+              "name": {
+                "value": "maquillándose"
+              }
+            },
+            {
+              "name": {
+                "value": "merendando"
+              }
+            },
+            {
+              "name": {
+                "value": "fascinando"
+              }
+            },
+            {
+              "name": {
+                "value": "devorando"
+              }
+            },
+            {
+              "name": {
+                "value": "bailando"
+              }
+            },
+            {
+              "name": {
+                "value": "descendiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "lastimando"
+              }
+            },
+            {
+              "name": {
+                "value": "entendiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "andando"
+              }
+            },
+            {
+              "name": {
+                "value": "prediciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "resultando"
+              }
+            },
+            {
+              "name": {
+                "value": "cobrando"
+              }
+            },
+            {
+              "name": {
+                "value": "sentándose"
+              }
+            },
+            {
+              "name": {
+                "value": "prosiguiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "almorzando"
+              }
+            },
+            {
+              "name": {
+                "value": "civilizando"
+              }
+            },
+            {
+              "name": {
+                "value": "mostrando"
+              }
+            },
+            {
+              "name": {
+                "value": "invadiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "defendiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "mirando"
+              }
+            },
+            {
+              "name": {
+                "value": "escondiéndose"
+              }
+            },
+            {
+              "name": {
+                "value": "abusando"
+              }
+            },
+            {
+              "name": {
+                "value": "instalando"
+              }
+            },
+            {
+              "name": {
+                "value": "conviniendo"
+              }
+            },
+            {
+              "name": {
+                "value": "aplaudiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "limpiando"
+              }
+            },
+            {
+              "name": {
+                "value": "secándose"
+              }
+            },
+            {
+              "name": {
+                "value": "renunciando"
+              }
+            },
+            {
+              "name": {
+                "value": "preguntándose"
+              }
+            },
+            {
+              "name": {
+                "value": "casando"
+              }
+            },
+            {
+              "name": {
+                "value": "fijando"
+              }
+            },
+            {
+              "name": {
+                "value": "plantando"
+              }
+            },
+            {
+              "name": {
+                "value": "bendiciendo"
+              }
+            },
+            {
+              "name": {
+                "value": "tosiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "ocurriendo"
+              }
+            },
+            {
+              "name": {
+                "value": "calculando"
+              }
+            },
+            {
+              "name": {
+                "value": "cayendo"
+              }
+            },
+            {
+              "name": {
+                "value": "enfermándose"
+              }
+            },
+            {
+              "name": {
+                "value": "callándose"
+              }
+            },
+            {
+              "name": {
+                "value": "graduándose"
+              }
+            },
+            {
+              "name": {
+                "value": "apoyando"
+              }
+            },
+            {
+              "name": {
+                "value": "matriculándose"
+              }
+            },
+            {
+              "name": {
+                "value": "exponiendo"
+              }
+            },
+            {
+              "name": {
+                "value": "acostando"
+              }
+            },
+            {
+              "name": {
+                "value": "conociendo"
+              }
+            },
+            {
+              "name": {
+                "value": "volviendo"
+              }
+            },
+            {
+              "name": {
+                "value": "visitando"
+              }
+            }
+          ],
+          "name": "GerundResponse"
+        }
+      ]
+    }
+  },
+  "version": "4"
+}

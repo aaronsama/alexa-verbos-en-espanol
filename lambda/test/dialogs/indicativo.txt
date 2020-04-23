@@ -1,0 +1,5 @@
+LaunchRequest
+StartIntent mood=indicativo
+AMAZON.HelpIntent
+? ConjugationResponseIntent firstPersonSingularResponse=
+AMAZON.HelpIntent

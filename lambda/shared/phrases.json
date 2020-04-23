@@ -1,0 +1,24 @@
+{
+  "welcomeText": "Hola! Bienvenido a 'Verbos en Español'!",
+  "helpText": "Puedes decir: 'quiero revisar el indicativo, el subjuntivo, el participio, el gerundio' o todo!",
+  "longHelpText": "Puedo ayudarte a revisar la conjugación de más de 500 verbos en español. Simplemente pregúntame de revisar un modo verbal para empezar el quiz.",
+  "indicativoHelpTexts": {
+    "condicional": "El condicional simple de indicativo se emplea en español sobre todo para expresar acciones o situaciones hipotéticas, así como preguntas en tono de cortesía o deseos.",
+    "futuro": "El futuro del modo indicativo se refiere a una acción que aún no ha ocurrido sino que ocurrirá posteriormente.",
+    "imperfecto": "Los verbos del tiempo pretérito imperfecto indican una acción que se ha producido en el pasado.<break strength='strong'/> Sin embargo, no se da a entender que dicha acción llego a concluir.",
+    "presente": "El presente del modo indicativo expresa una acción que ocurre en un momento actual.",
+    "pretérito": "El pretérito perfecto expresa una acción que ya se ha realizado anteriormente.<break strength='strong'/>  Es decir, el verbo indica un tiempo pasado."
+  },
+  "subjuntivoHelpTexts": {
+    "imperfecto": "Al igual que el tiempo presente, el pretérito impefecto del subjuntivo expresa una acción hipotética, no real y que indica que la misma debió realizarse en un tiempo anterior.",
+    "presente": "Las oraciones en presente del modo subjuntivo expresan un deseo, una posibilidad, una petición u otra enunciación hipoteca en un tiempo actual."
+  },
+  "participioHelpText": "El participio es una forma no personal del verbo que indica la acción tras haber finalizado.<break strength='strong'/> Los participios se forman añadiendo los sufijos -ado o -ido, dependiendo de la conjugación del verbo.",
+  "gerundioHelpText": "El gerundio es una forma no personal del verbo caracterizado por expresar una acción continua, en desarrollo constante.<break strength='strong'/> Los verbos de la primera conjugación (acabados en -ar) se forman con la desinencia -ando, mientras que los de la segunda y tercera conjugación (acabados en -er o -ir) lo hacen con -iendo.",
+  "errorText": "Perdona. No te he entendido.",
+  "goodbyeText": "<say-as interpret-as='interjection'>Hasta luego</say-as>! Y recuerda practicar cada día.",
+  "problemText": "En este momento hay algun problema. Intenta más tarde.",
+  "positiveStarters": ["bravo", "bam", "bingo", "estupendo", "excelente", "genial", "olé", "perfecto", "sí señor", "súper"],
+  "negativeStarters": ["en serio", "hombre", "ay ay ay", "madre mía", "mamma mia", "no way", "nooo", "oh no", "ojo", "ostras"],
+  "wantMoreQuestion": "¿Quieres practicar otro verbo?"
+}

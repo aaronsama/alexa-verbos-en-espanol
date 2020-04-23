@@ -1,0 +1,6 @@
+LaunchRequest
+StartIntent mood=pastparticiple
+AMAZON.HelpIntent
+? ParticipleResponseIntent participleResponse=comido
+AMAZON.YesIntent
+AMAZON.StopIntent
