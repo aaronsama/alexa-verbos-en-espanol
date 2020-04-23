@@ -1,4 +1,4 @@
-# alexa-verbos-en-espanol
+# Verbos en Español (Alexa Skill)
 
 An Alexa skill to help you practice Spanish verb conjugations.
 
