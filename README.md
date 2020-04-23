@@ -14,7 +14,7 @@ You need to create a `credentials.json` file in `lambda/shared` with a single en
 
 ```json
 {
-  "roleArn": "arn:aws:iam::XXXXXXXXX:role/Alexa" // get the actial value for your skill
+  "roleArn": "arn:aws:iam::XXXXXXXXX:role/Alexa" /* get the actual value for your skill */
 }
 ```
 
